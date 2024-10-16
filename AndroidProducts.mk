@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_X96.mk
+    $(LOCAL_DIR)/twrp_X96.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_X96-user \
-    omni_X96-userdebug \
-    omni_X96-eng
+    twrp_X96-user \
+    twrp_X96-userdebug \
+    twrp_X96-eng

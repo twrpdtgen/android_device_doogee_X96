@@ -4,6 +4,21 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+# Virtual A/B
+ENABLE_VIRTUAL_AB := true
+$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
+
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    dtbo \
+    boot \
+    system \
+    system_ext \
+    vendor \
+    product
 
 LOCAL_PATH := device/doogee/X96
 # A/B

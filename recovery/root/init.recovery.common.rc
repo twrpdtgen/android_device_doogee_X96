@@ -364,7 +364,7 @@ on property:ro.bootmode=cali
     start vendor.mlogservice
 
 on property:ro.bootmode=factorytest
-    setprop sys.usb.config adb,vser,gser
+    setprop sys.usb.config adb,mtp,vser,gser
 
     mount_all /etc/recovery.tmpfsdata.fstab
     mount tmpfs tmpfs /data mode=0777

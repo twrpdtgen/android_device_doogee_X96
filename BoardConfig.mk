@@ -83,6 +83,13 @@ BOARD_AVB_BOOT_ROLLBACK_INDEX_LOCATION := 1
 TARGET_NO_RECOVERY := true
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+# Fix fastboot reboot
+TW_NO_FASTBOOT_BOOT := true
+
+# MTP
+TW_MTP_DEVICE := /dev/mtp_usb
+TW_HAS_MTP := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

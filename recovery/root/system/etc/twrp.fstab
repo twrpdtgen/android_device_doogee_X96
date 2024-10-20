@@ -54,5 +54,5 @@
 /sysdumpdb              emmc     /dev/block/by-name/sysdumpdb               flags=backup=1;display="Sysdumpdb"
 
 # Removable storage
-/external_sd	        auto     /dev/block/mmcblk1p1	/dev/block/mmcblk1			flags=fsflags=utf8;storage;wipeingui;removable
-/usb-otg	            auto     /dev/block/sda1		/dev/block/sda				flags=storage;wipeingui;removable
+/external_sd	        auto     /dev/block/mmcblk1p1	/dev/block/mmcblk1			flags=fsflags=utf8;storage;wipeingui;removable;fsflags="utf8"
+/usb-otg	            auto     /dev/block/sda1		/dev/block/sda				flags=storage;wipeingui;removable;fsflags="utf8"

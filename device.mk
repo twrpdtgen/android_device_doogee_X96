@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-LOCAL_PATH := device/realme/RMX3231
+LOCAL_PATH := device/doogee/X96
 
 PRODUCT_PLATFORM := sp9863a
 
